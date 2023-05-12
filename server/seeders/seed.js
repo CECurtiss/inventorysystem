@@ -4,7 +4,7 @@ const spiritsSeeds = require('./spiritsSeeds.json');
 
 db.once('open', async () => {
     try {
-        await Spirits.remove({});
+        await Spirits.deleteMany({});
         await Spirits.create(spiritsSeeds);
     
         console.log('all done!');
