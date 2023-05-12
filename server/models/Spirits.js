@@ -25,4 +25,6 @@ const spiritsSchema = new Schema({
     },
 });
 
-module.exports = spiritsSchema
+const Spirits = model('Spirits', spiritsSchema);
+
+module.exports = Spirits

@@ -8,6 +8,10 @@ const typeDefs = gql`
         category: String
         abv: Int
     }
+
+    type Query {
+        spirits: [Spirits]
+    }
     `
 
 module.exports = typeDefs;
