@@ -18,6 +18,12 @@ const productSchema = new Schema({
         required: true,
         trim: true,
     },
+    package: [
+        {
+            type: Schema.Types.ObjectId,
+            ref: 'Package'
+        }
+    ]
 });
 
 const Products = model('Products', productSchema);
