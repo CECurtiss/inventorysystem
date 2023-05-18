@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Vodka",
+        "subCategory": "Russian"
+    },
+    {
+        "name": "Whiskey",
+        "subCategory": "Bourbon"
+    },
+    {
+        "name": "Scotch",
+        "subCategory": "Islay"
+    },
+    {
+        "name": "Gin",
+        "subCategory": "London Dry"
+    }
+]
