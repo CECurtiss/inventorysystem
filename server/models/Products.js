@@ -13,11 +13,6 @@ const productSchema = new Schema({
         unique: true,
         trim: true
     },
-    size: {
-        type: Number,
-        required: true,
-        trim: true,
-    },
     abv: {
         type: Number,
         required: true,

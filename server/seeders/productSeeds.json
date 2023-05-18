@@ -2,19 +2,16 @@
     {
         "category": "Vodka",
         "name": "Smirnoff",
-        "size": "1750",
         "abv": "40"
     },
     {
         "category": "Bourbon",
         "name": "Evan Williams",
-        "size": "1750",
         "abv": "43"
     },
     {
         "category": "Tequila",
         "name": "Patron Silver",
-        "size": "750",
         "abv": "40"
     }
 ]

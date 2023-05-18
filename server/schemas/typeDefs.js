@@ -5,10 +5,17 @@ const typeDefs = gql`
         _id: ID
         category: String
         name: String
-        size: Int
         abv: Int
+        package: [Package]
     }    
 
+    type Package {
+        _id: ID
+        size: Int
+        perCase: Int
+        inStock: Int
+        price: Float
+    }
 
     type Query {
         product: [Product]
