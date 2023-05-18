@@ -1,4 +1,4 @@
-const Spirits = require('./Spirits')
+const Products = require('./Products')
 
 
-module.exports = { Spirits }
+module.exports = { Products }

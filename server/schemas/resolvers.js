@@ -1,9 +1,9 @@
-const { Spirits } = require('../models');
+const { Products } = require('../models');
 
 const resolvers = {
     Query: {
-        spirits: async () => {
-            return await Spirits.find();
+        product: async () => {
+            return await Products.find();
         }
     }
 };

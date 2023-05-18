@@ -1,7 +1,12 @@
 const { Schema, model } = require('mongoose');
 
-const spiritsSchema = new Schema({
+const productSchema = new Schema({
 
+    category: {
+        type: String,
+        required: true,
+        trim: true,
+    },
     name: {
         type: String,
         required: true,
@@ -13,11 +18,6 @@ const spiritsSchema = new Schema({
         required: true,
         trim: true,
     },
-    category: {
-        type: String,
-        required: true,
-        trim: true,
-    },
     abv: {
         type: Number,
         required: true,
@@ -25,6 +25,6 @@ const spiritsSchema = new Schema({
     },
 });
 
-const Spirits = model('Spirits', spiritsSchema);
+const Products = model('Products', productSchema);
 
-module.exports = Spirits
+module.exports = Products
