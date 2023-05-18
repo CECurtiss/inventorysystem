@@ -1,0 +1,20 @@
+[
+    {
+        "size": "750",
+        "perCase": "6",
+        "inStock": "14",
+        "price": "11.99"
+    },
+    {
+        "size": "1500",
+        "perCase": "6",
+        "inStock": "12",
+        "price": "23.99"
+    },
+    {
+        "size": "3000",
+        "perCase": "3",
+        "inStock": "6",
+        "price": "35.99"
+    }
+]

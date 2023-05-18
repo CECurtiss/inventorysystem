@@ -25,6 +25,8 @@ const typeDefs = gql`
 
     type Query {
         product: [Product]
+        category: [Category]
+        package: [Package]
     }
     `
 

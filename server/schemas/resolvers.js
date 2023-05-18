@@ -1,4 +1,4 @@
-const { Products } = require('../models');
+const { Products, Category, Package } = require('../models');
 
 const resolvers = {
     Query: {
