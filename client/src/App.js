@@ -2,7 +2,9 @@ import React from 'react';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import logo from './logo.svg';
+import Navbar from './components/Navbar';
+import Header from './components/Header';
+import Inventory from './components/Inventory';
 import './App.css';
 
 const client = new ApolloClient({
@@ -13,13 +15,15 @@ const client = new ApolloClient({
 function App() {
   return (
     <ApolloProvider client={client}>
+      <>
+      <Navbar />
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/" element={<Inventory />} />
         </Routes>
       </Router>
+      </>
     </ApolloProvider>
   );
 }
