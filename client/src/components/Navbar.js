@@ -15,6 +15,9 @@ const AppNavbar = () => {
                     <Nav.Link as={Link} to="/login">
                         Login
                     </Nav.Link>
+                    <Nav.Link>
+                        <Link to="/inventory">Inventory</Link>
+                    </Nav.Link>
                 </Nav>
             </Container>
         </Navbar>

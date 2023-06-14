@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
 import Header from './components/Header';
-import Inventory from './components/Inventory';
+import Inventory from './pages/Inventory';
 import './App.css';
 
 const client = new ApolloClient({
